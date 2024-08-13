@@ -28,21 +28,11 @@ class _LayoutScreenState extends State<LayoutScreen> {
     SettingsScreen(),
   ];
 
-  // List <AppLocalizations> titles = ["Islami", "Hadeth", "Sebha", "Radio", "Settings",];
-
   @override
   Widget build(BuildContext context) {
     return BgWidget(
       child: Scaffold(
-        // appBar: AppBar(
-        //   title:  Text(
-        //     appTranslate(context).islami,style: Theme.of(context).textTheme.titleMedium,
-        //   ),
-        // centerTitle: true,
-        // elevation: 0,
-        // backgroundColor: Colors.transparent,
-        // ),
-        // backgroundColor: Colors.transparent,
+        
         bottomNavigationBar: BottomNavigationBar(
           onTap: (int value) {
             selectedIndex = value;
